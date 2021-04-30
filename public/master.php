@@ -8,9 +8,9 @@
     <title>LaraPress</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/app.css" rel="stylesheet" />
+    <link href="./css/app.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
-    <link href="js/app.js" rel="text/javascript" />
+    <link href="./js/app.js" rel="text/javascript" />
 
 </head>
