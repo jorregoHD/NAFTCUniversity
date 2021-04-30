@@ -10002,3 +10002,47 @@ h3 {
     border-color: #dee2e6;
   }
 }
+
+.wvuHeader{
+	background-color: #002655;
+  width:100%;
+}
+.wvuLogo{
+	background: url('../img/wvu-logo.png')no-repeat center center;
+	width: 205px;
+	height: 30px;
+	display: block;
+	margin: 8px 0 8px 15px;
+}
+
+.naftcHeader{
+	width:100%;
+	background-color: #00214a;
+}
+.naftcTitle{
+  color:white;
+  
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 0;
+}
+.naftcTitle a{
+	display: inline-block;
+}
+.naftcTitle .title{
+	position: inherit;
+	top: 12px;
+}
+
+.naftcTitle a span{
+	font-size: 17px;
+	line-height: 1;
+	font-family: arial;
+}
+.naftcLogo {
+	text-align: center;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+.naftcLogo  img{
+	width: 70%;
+}

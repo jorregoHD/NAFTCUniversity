@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -5,7 +6,10 @@
     <title>NAFTC University</title>
   </head>
   <body>
-    <div class="h-100" style="background-color: #dedede">
+    <div class="">
+      <header>
+        @include('includes.header')
+      </header>
       <div class="container">
         <h1>Welcome</h1>
         <p>Test</p>
