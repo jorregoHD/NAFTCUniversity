@@ -5,7 +5,7 @@
     <title>NAFTC University</title>
   </head>
   <body>
-    <div class="w-100 h-100" style="background-color: #dedede">
+    <div class="h-100" style="background-color: #dedede">
       <div class="container">
         <h1>Welcome</h1>
         <p>Test</p>
