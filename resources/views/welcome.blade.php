@@ -8,6 +8,7 @@
     <div class="w-100 h-100" style="background-color: #dedede">
       <div class="container">
         <h1>Welcome</h1>
+        <p>Test</p>
       </div>
     </div>
   </body>
