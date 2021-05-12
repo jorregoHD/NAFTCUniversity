@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <body>
-    <form>
+    <form action="/search" method="POST">
+      {{ csrf_field() }}
       <div class="form-group">
         <label for="searchInput"><h1>Search NAFTC Library</h1></label>
         <input type="text" class="form-control" id="searchInput" aria-describedby="searchinput" placeholder="Search by keyword">

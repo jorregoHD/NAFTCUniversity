@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Symfony\Component\Console\Input\Input;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,10 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
+Route::get('/NAFTCUniversity-login', function () {
     return view('login');
 });
 
-Route::get('/search', function () {
-    return view('search');
+Route::any('/search',function(){
+    //$q = Input::get ( 'searchInput' );
+    //if(isset($q))
+        return view('search');
+    //else return view ('welcome');
 });
