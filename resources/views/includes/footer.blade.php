@@ -1,4 +1,4 @@
-<div id="memberFooter" class="row">
+<div id="memberFooter">
   <div class="container">
     <div class="col-xs-12 col-sm-12">
       <address>National Alternative Fuels Training Consortium<br>

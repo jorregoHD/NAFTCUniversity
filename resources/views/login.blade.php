@@ -26,10 +26,11 @@
               <a href="#" class="float-right">Forgot Password?</a>
           </div>
       </form>
-      <p class="text-center"><a href="#">Create an Account</a></p>
-  </div>
+        <p class="text-center"><a href="#">Create an Account</a></p>
+      </div>
     </div>
-
-
+    <div style="background-color: white">
+      @include('includes.footer')
+    </div>
   </body>
 </html>

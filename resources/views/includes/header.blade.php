@@ -1,14 +1,14 @@
 <head>
   <title>NAFTC University</title>
 </head>
-<nav class="navbar navbar-expand-lg w-100 wvuHeader">
+<nav class="navbar navbar-expand-lg wvuHeader">
   <div class="container">
     <a class="wvuLogo text-hide" href="http://www.wvu.edu" target="_blank">West Viginia University</a>
   </div>
 </nav>
 
 
-<nav class="navbar navbar-expand-lg w-100 naftcHeader">
+<nav class="navbar navbar-expand-lg naftcHeader">
   <div class="container">
   <div class="col-xs-12 col-sm-6 naftcTitle">
     <a class="title" href="https://naftc.wvu.edu" style="text-decoration: none; color: white;"><span>National Alternative Fuels <br> Training Consortium</span></a>
@@ -17,7 +17,7 @@
   </div>
 </nav>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="/">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
