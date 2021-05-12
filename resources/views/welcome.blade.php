@@ -1,10 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>NAFTC University</title>
-  </head>
   <body style="background-color: #eeeeee">
       <div>
         @include('includes.header')
@@ -14,14 +10,14 @@
           <h1 class="banner-text">OPEN <br/>  EDUCATION <br/> RESOURCES</h1>
         </div>
       </div>
-      <div class="container pt-1 my-5 h-100" style="background-color: #dedede">
+      <div class="container pt-1 my-5 py-3 h-100" style="background-color: #dedede">
         <form>
           <div class="form-group">
             <label for="searchInput"><h1>Search NAFTC Library</h1></label>
             <input type="text" class="form-control" id="searchInput" aria-describedby="searchinput" placeholder="Search by keyword">
           </div>
         </form>
-        <div class="pb-3">
+        <div class="">
           Search by:
           <div class="btn">
             <div class="dropdown">
@@ -60,11 +56,16 @@
           </div>
         </div>
       </div>
+      <div class="container mt-5">
+        <h1>About NAFTC University</h1>
+        <p>NAFTC University is an online educational resource for alternative fuel training centers and our partners. In our library, curriculum and materials can be shared between our organizations and partners to supplement education for alternative fuel vehicles.</p>
+        <h3>To gain access, please contact our headquarters at</h3>
+        <h4>P: (304) 293-7882</h4>
+        <h4>E: <a href="mailto:naftc@mail.wvu.edu">naftc@mail.wvu.edu</a></h4>
+      </div>
       <div style="background-color: white">
         @include('includes.footer')
       </div>
   </body>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
 </html>
