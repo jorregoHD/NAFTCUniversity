@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <body>
-    <form action="/search" method="POST">
+    <form action="https://naftc.wvu.edu/NAFTCUniversity/search" method="POST">
       {{ csrf_field() }}
       <div class="form-group">
         <label for="searchInput"><h1>Search NAFTC Library</h1></label>
