@@ -19,15 +19,15 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="https://naftc.wvu.edu/NAFTCUniversity">NAFTC OER Library</a>
+    <a class="navbar-brand" href="https://naftc.wvu.edu/NAFTCUniversity/">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-3">
-          <a class="btn btn-success btn-block nav-link" style="color: white;" href="/NAFTCUniversity-login" role="button">
+          <a class="btn btn-success btn-block nav-link" style="color: white;" href="https://naftc.wvu.edu/NAFTCUniversity/NAFTCUniversity-login" role="button">
             Login
           </a>
         </li>
         <li class="nav-item mx-3">
-          <a class="btn btn-success btn-block nav-link" style="color: white;" href="/NAFTCUniversity-login" role="button">
+          <a class="btn btn-success btn-block nav-link" style="color: white;" href="https://naftc.wvu.edu/NAFTCUniversity/NAFTCUniversity-login" role="button">
             Register
           </a>
         </li>
