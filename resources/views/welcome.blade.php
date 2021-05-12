@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>NAFTC University</title>
   </head>
-  <body>
+  <body style="background-color: #eeeeee">
       <div>
         @include('includes.header')
       </div>
@@ -14,7 +14,7 @@
           <h1 class="banner-text">OPEN <br/>  EDUCATION <br/> RESOURCES</h1>
         </div>
       </div>
-      <div class="container pt-1 mt-5 h-100" style="background-color: #dedede;">
+      <div class="container pt-1 my-5 h-100" style="background-color: #dedede">
         <form>
           <div class="form-group">
             <label for="searchInput"><h1>Search NAFTC Library</h1></label>
@@ -24,6 +24,9 @@
         <div class="">
           Search by:
         </div>
+      </div>
+      <div style="background-color: white">
+        @include('includes.footer')
       </div>
   </body>
 </html>
