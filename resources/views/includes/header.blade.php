@@ -19,7 +19,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="https://naftc.wvu.edu/NAFTCUniversity">NAFTC OER Library  test Change</a>
+    <a class="navbar-brand" href="https://naftc.wvu.edu/NAFTCUniversity">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-3">
           <a class="btn btn-success btn-block nav-link" style="color: white;" href="/login" role="button">
