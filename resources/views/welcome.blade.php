@@ -21,7 +21,7 @@
             <input type="text" class="form-control" id="searchInput" aria-describedby="searchinput" placeholder="Search by keyword">
           </div>
         </form>
-        <div class="">
+        <div class="pb-3">
           Search by:
           <div class="btn">
             <div class="dropdown">
