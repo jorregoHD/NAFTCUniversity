@@ -37,4 +37,3 @@
       </ul>
   </div>
 </nav>
-<hr style="border-width: 1px; width:80%;">

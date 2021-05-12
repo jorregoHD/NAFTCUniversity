@@ -6,15 +6,24 @@
     <title>NAFTC University</title>
   </head>
   <body>
-    <div class="">
-      <header>
+      <div>
         @include('includes.header')
-      </header>
-      <div class="container">
-        <h1>Welcome</h1>
-        <p>Test</p>
-        <p>Another change</p>
       </div>
-    </div>
+      <div class="banner">
+        <div class="banner-content">
+          <h1 class="banner-text">OPEN <br/>  EDUCATION <br/> RESOURCES</h1>
+        </div>
+      </div>
+      <div class="container pt-1 mt-5 h-100" style="background-color: #dedede;">
+        <form>
+          <div class="form-group">
+            <label for="searchInput"><h1>Search NAFTC Library</h1></label>
+            <input type="text" class="form-control" id="searchInput" aria-describedby="searchinput" placeholder="Search by keyword">
+          </div>
+        </form>
+        <div class="">
+          Search by:
+        </div>
+      </div>
   </body>
 </html>

@@ -1,5 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Helvetica);
 @charset "UTF-8";
+
+@font-face {
+font-family: Helvetica-Medium;
+src: url(https://naftc.wvu.edu/wp-content/themes/fonts/HelveticaNeue-Medium.ttf);
+font-weight: normal;
+}
+
+@font-face {
+font-family: Helvetica-CondensedBold;
+src: url(https://naftc.wvu.edu/wp-content/themes/fonts/HelveticaNeue-CondensedBold.ttf);
+font-weight: normal;
+}
+
+@font-face {
+font-family: Helvetica-CondensedBlack;
+src: url(https://naftc.wvu.edu/wp-content/themes/fonts/HelveticaNeue-CondensedBlack.ttf);
+font-weight: normal;
+}
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -33,7 +51,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Helvetica", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -56,7 +74,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -78,6 +96,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
 }
 
 p {
@@ -5585,7 +5604,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -5687,7 +5706,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -9962,8 +9981,11 @@ h3 {
     min-width: 992px !important;
   }
 
-  .container {
+  .container{
     min-width: 992px !important;
+  	width: 100%;
+  	margin-left: auto;
+  	margin-right: auto;
   }
 
   .navbar {
@@ -10046,4 +10068,26 @@ h3 {
 .naftcLogo  img{
         width: 70%;
 }
-                              
+
+.banner {
+  background-image: url("../img/librarybanner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50vh;
+}
+
+.banner-content {
+  background-image: url("../img/diagonal-gold.svg");
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 15%;
+}
+
+.banner-text {
+  color: white;
+  font-size: 55px;
+	line-height: 59px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
+}
