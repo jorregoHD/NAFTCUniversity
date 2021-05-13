@@ -10110,7 +10110,7 @@ h3 {
 
   .banner-text {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     height: 30%;
   	text-transform: uppercase;
   	font-weight: bolder;
@@ -10127,6 +10127,10 @@ h3 {
 
   #search {
     margin: 0;
+  }
+
+  #hide-on-mobile {
+    display:none;
   }
 }
 
