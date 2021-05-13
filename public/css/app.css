@@ -10073,7 +10073,7 @@ h3 {
   background-image: url("../img/librarybanner.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 50vh;
+  height: 40vh;
 }
 
 .banner-content {
@@ -10085,48 +10085,47 @@ h3 {
 
 .banner-text {
   color: white;
-  font-size: 55px;
+  font-size: 40pt;
 	line-height: 59px;
 	text-transform: uppercase;
 	font-weight: bolder;
 	font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  #register {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
   .banner {
     background-color: #00214a;
     background-image: none;
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 33vh;
+    height: 30vh;
   }
   .banner-content {
     background-image: url("../img/diagonal-gold.svg");
     background-size: 33%;
     background-repeat: no-repeat;
-    padding-top: 40px;
     padding-left: 15%;
+    height: 100%;
   }
 
   .banner-text {
     color: white;
-    font-size: 40px;
-    height: 30%;
+    font-size: 28pt;
   	text-transform: uppercase;
   	font-weight: bolder;
   	font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
   }
 
-  #register {
-    display: none;
-  }
 
-  #login {
-    width: 100%:
-  }
 
   #search {
     margin: 0;
+    text-align: center;
   }
 
   #hide-on-mobile {
