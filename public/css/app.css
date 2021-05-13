@@ -10073,7 +10073,6 @@ h3 {
   background-image: url("../img/librarybanner.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 40vh;
 }
 
 .banner-content {
@@ -10081,12 +10080,12 @@ h3 {
   background-repeat: no-repeat;
   padding-top: 40px;
   padding-left: 15%;
+  height: 50%;
 }
 
 .banner-text {
   color: white;
-  font-size: 40pt;
-	line-height: 59px;
+  font-size: 5vw;
 	text-transform: uppercase;
 	font-weight: bolder;
 	font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
@@ -10115,7 +10114,7 @@ h3 {
 
   .banner-text {
     color: white;
-    font-size: 28pt;
+    font-size: 10vw;
   	text-transform: uppercase;
   	font-weight: bolder;
   	font-family: "Helvetica-CondensedBlack", Arial, "Lucida Grande", sans-serif;
