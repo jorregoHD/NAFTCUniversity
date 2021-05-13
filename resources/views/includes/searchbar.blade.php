@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <body>
-    <form action="https://naftc.wvu.edu/NAFTCUniversity/search" method="POST">
+    <form action="search" method="POST">
       {{ csrf_field() }}
       <div class="form-group">
         <label for="searchInput"><h1>Search NAFTC Library</h1></label>
@@ -10,38 +10,40 @@
     </form>
     <div class="">
       Search by:
-      <div class="btn">
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Resource Format
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Textbooks</a>
-            <a class="dropdown-item" href="#">Videos</a>
-            <a class="dropdown-item" href="#">Pamplets</a>
+      <div class="row">
+        <div class="btn col-sm-4">
+          <div class="dropdown">
+            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resource Format
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Textbooks</a>
+              <a class="dropdown-item" href="#">Videos</a>
+              <a class="dropdown-item" href="#">Pamplets</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="btn">
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Topic
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">EV Recycling</a>
-            <a class="dropdown-item" href="#">AFV First Responder</a>
-            <a class="dropdown-item" href="#">Propane</a>
+        <div class="btn col-sm-4">
+          <div class="dropdown">
+            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Topic
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">EV Recycling</a>
+              <a class="dropdown-item" href="#">AFV First Responder</a>
+              <a class="dropdown-item" href="#">Propane</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="btn">
-        <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Release Date
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Newest</a>
-            <a class="dropdown-item" href="#">Oldest</a>
+        <div class="btn col-sm-4">
+          <div class="dropdown">
+            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Release Date
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Newest</a>
+              <a class="dropdown-item" href="#">Oldest</a>
+            </div>
           </div>
         </div>
       </div>

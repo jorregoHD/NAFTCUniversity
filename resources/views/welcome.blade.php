@@ -10,7 +10,7 @@
           <h1 class="banner-text">OPEN <br/>  EDUCATION <br/> RESOURCES</h1>
         </div>
       </div>
-      <div class="container pt-1 my-5 py-3 h-100" style="background-color: #dedede">
+      <div class="container pt-1 my-5 py-3 h-100" id="search" style="background-color: #dedede">
         @include('includes.searchbar')
       </div>
       <div class="container mt-5">

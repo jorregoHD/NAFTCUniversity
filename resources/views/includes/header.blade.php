@@ -1,5 +1,6 @@
 <head>
   <title>NAFTC University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <nav class="navbar navbar-expand-lg wvuHeader">
   <div class="container">
@@ -19,15 +20,15 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="https://naftc.wvu.edu/NAFTCUniversity/">NAFTC OER Library</a>
+    <a class="navbar-brand" href="home">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-3">
-          <a class="btn btn-success btn-block nav-link" style="color: white;" href="https://naftc.wvu.edu/NAFTCUniversity/NAFTCUniversity-login" role="button">
+          <a class="btn btn-success btn-block nav-link" id="register" style="color: white;" href="login" role="button">
             Login
           </a>
         </li>
-        <li class="nav-item mx-3">
-          <a class="btn btn-success btn-block nav-link" style="color: white;" href="https://naftc.wvu.edu/NAFTCUniversity/NAFTCUniversity-login" role="button">
+        <li class="nav-item mx-3" id="register">
+          <a class="btn btn-success btn-block nav-link" style="color: white;" href="login" role="button">
             Register
           </a>
         </li>
