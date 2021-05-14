@@ -256,7 +256,7 @@ button,
 select,
 optgroup,
 textarea {
-  margin: 0;
+  margin: auto;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -1978,7 +1978,7 @@ pre code {
 
 .form-control {
   display: block;
-  width: 100%;
+  width: 75%;
   height: calc(1.6em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
   font-size: 0.9rem;
@@ -2115,8 +2115,15 @@ textarea.form-control {
   margin-bottom: 1rem;
 }
 
+
 .form-text {
   display: block;
+  margin-top: 0.25rem;
+}
+
+.form-text2 {
+  display: block;
+  text-align: left;
   margin-top: 0.25rem;
 }
 
