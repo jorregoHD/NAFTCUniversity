@@ -127,3 +127,17 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.item-anchor {
+  color: black;
+}
+
+.item-anchor:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.item-link:hover {
+  background-color: #dedede;
+  text-decoration: none;
+}

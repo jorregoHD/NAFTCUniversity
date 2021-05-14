@@ -28,20 +28,22 @@
             </div>
           </div>
           <hr/>
-          <div class="row py-2" id="result">
-            <div class="col-md-3">
-              Training Manual
+          <a href="item" class="item-anchor">
+            <div class="row py-2 item-link" id="result">
+              <div class="col-md-3">
+                Training Manual
+              </div>
+              <div class="col-md-3" id="hide-on-mobile">
+                pdf
+              </div>
+              <div class="col-md-3" id="hide-on-mobile">
+                20M
+              </div>
+              <div class="col-md-3" id="hide-on-mobile">
+                5/13/2021
+              </div>
             </div>
-            <div class="col-md-3" id="hide-on-mobile">
-              pdf
-            </div>
-            <div class="col-md-3" id="hide-on-mobile">
-              20M
-            </div>
-            <div class="col-md-3" id="hide-on-mobile">
-              5/13/2021
-            </div>
-          </div>
+          </a>
           <div class="row py-2" id="result">
             <div class="col-md-3">
               First Responder Video
