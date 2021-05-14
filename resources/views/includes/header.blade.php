@@ -23,8 +23,8 @@
   <div class="container">
     <a class="navbar-brand" href="home">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item mx-3 w-100">
-          <a class="btn btn-primary button btn-block nav-link" style="color: white;" href="login" role="button">
+        <li class="nav-item mx-3">
+          <a class="btn btn-primary button btn-block nav-link  px-3" style="color: white;" href="login" role="button">
             Login
           </a>
         </li>
