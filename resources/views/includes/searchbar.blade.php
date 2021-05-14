@@ -17,9 +17,9 @@
               Resource Format
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Textbooks</a>
-              <a class="dropdown-item" href="#">Videos</a>
-              <a class="dropdown-item" href="#">Pamplets</a>
+              <a class="dropdown-item" href="search">Textbooks</a>
+              <a class="dropdown-item" href="search">Videos</a>
+              <a class="dropdown-item" href="search">Pamplets</a>
             </div>
           </div>
         </div>
@@ -29,9 +29,9 @@
               Topic
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">EV Recycling</a>
-              <a class="dropdown-item" href="#">AFV First Responder</a>
-              <a class="dropdown-item" href="#">Propane</a>
+              <a class="dropdown-item" href="search">EV Recycling</a>
+              <a class="dropdown-item" href="search">AFV First Responder</a>
+              <a class="dropdown-item" href="search">Propane</a>
             </div>
           </div>
         </div>
@@ -41,8 +41,8 @@
               Release Date
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Newest</a>
-              <a class="dropdown-item" href="#">Oldest</a>
+              <a class="dropdown-item" href="search">Newest</a>
+              <a class="dropdown-item" href="search">Oldest</a>
             </div>
           </div>
         </div>
