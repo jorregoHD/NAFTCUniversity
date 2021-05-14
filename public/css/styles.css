@@ -1,3 +1,18 @@
+.button{
+	background-color: #eeeeee !important;
+	color: #00214a !important;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+  border-radius: 0px;
+	border-color: #00214a !important;
+}
+.button:hover{
+	background-color: #002655 !important;
+	color: #fff !important;
+	text-decoration: underline !important;
+}
+
 
 .wvuHeader{
         background-color: #002655;

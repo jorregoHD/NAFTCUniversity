@@ -13,7 +13,7 @@
       <div class="row">
         <div class="btn col-sm-4">
           <div class="dropdown">
-            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary button btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Resource Format
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -25,7 +25,7 @@
         </div>
         <div class="btn col-sm-4">
           <div class="dropdown">
-            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary button btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Topic
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -37,7 +37,7 @@
         </div>
         <div class="btn col-sm-4">
           <div class="dropdown">
-            <button class="btn btn-primary btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary button btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Release Date
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
