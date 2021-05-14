@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\Console\Input\Input;
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,9 +26,13 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::any('/search',function(){
-    //$q = Input::get ( 'searchInput' );
-    //if(isset($q))
+Route::get('/item', function () {
+    return view('item');
+});
+
+Route::any('/search',function(Request $request){
+    $q = $request->input( 'searchInput' );
+    if(isset($q)) //logic for search
         return view('search');
-    //else return view ('welcome');
+    else return view ('search');
 });

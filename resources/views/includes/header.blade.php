@@ -24,12 +24,12 @@
     <a class="navbar-brand" href="home">NAFTC OER Library</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-3 w-100">
-          <a class="btn btn-success btn-block nav-link" style="color: white;" href="login" role="button">
+          <a class="btn btn-primary button btn-block nav-link" style="color: white;" href="login" role="button">
             Login
           </a>
         </li>
         <li class="nav-item mx-3" id="register">
-          <a class="btn btn-success nav-link" style="color: white;" href="login" role="button">
+          <a class="nav-link" style="color: white;" href="login" role="button">
             Register
           </a>
         </li>
