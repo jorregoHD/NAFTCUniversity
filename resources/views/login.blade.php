@@ -1,70 +1,44 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>NAFTC University</title>
-  </head>
-  <body class="text-center uk-height-1-1 uk-flex-middle uk-flex-center bg-lightorange-gradient">
-    <div>
-      @include('includes.header')
-    </div>
-    <div class="h-100 container center-me">
+<main>
+    <link rel="stylesheet" href="..\public\css\login.css"> <!-- Styling for SIGNUP page from CSS file -->
+    @include('includes.header')
+    <div class="bg-cover">
+        <div class="h-100 container center-me" class="zoomIn">
             <!-- Placing the Form Container in the Center -->
-            <div class="my-auto" >
-    <div id="content">
-        <div class="login-photo">
-            <div class="form-container">
-                <div class="image-holder"></div>
-                <form method="post" id="fm1">
-                <div class="text-center" p>
-                <img alt="NAFTC Logo"  src="http://naftc.wvu.edu/wp-content/uploads/2017/05/naftcLogo2.png" style="padding-top: 15px;">
-                <div class="form-group">
-                
-                    <div>
+            <div class="my-auto">
+                <!-- Signup Form Elements -->
+                <div class="login-form">
+                    <form action="includes/login-helper.php" method="post">
+                   <div class="text-center" p>
+                    <img alt="NAFTC Logo"  src="http://naftc.wvu.edu/wp-content/uploads/2017/05/naftcLogo2.png" style="padding-top: 35px;">
                     <h2>Please Sign In</h2>
-                    <label class="form" style="padding-right: 720px" text-align="left" for="username">Your Username</label>
-                        <input class="required form-control" id="username" name="username" size="25" aria-label="Enter username" type="text" tabindex="1" placeholder="e.g. gordon.gee" autocomplete="off" accesskey="u" value="">
+                        <p style="color:midnightblue;">We Missed you. WELOCME BACK!!</p>
+                        
+                
+                        <div class="form-group">
+                            <!-- Input for User Name -->
+                            <label for="inputEmail" class="sr-only">Username</label>
+                            <input type="text" class="form-control" name="uname" placeholder="e.g. gordon.gee" required="required">
                         </div>
+                        <div class="form-group">
+                            <!-- Input for Password -->
+                            <input type="password" class="form-control" name="pwd" placeholder="e.g. LetsGoMountaineers123" required="required">
+                        </div>
+                        <div class="form-group">
+                            <!-- Register/Submit Button -->
+                            <button type="submit" class="btn btn-outline-success btn-md btn-circle" name="signup-submit">Log In</button>
+                        </div>
+                        <div class="text-center">Not a member? <a href="..views\layouts\signup.blade.php">Create an Account</a></div>
+                        <div class="text-center">Follow us on
+                            <hr class="my-2">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <!-- Allows to connect to Social MEDIA -->
+                            <a href="https://www.facebook.com/NAFTCWVU/" class="fa fa-facebook" type="submit"></a>
+                            <a href="https://twitter.com/naftcwvu?lang=en" class="fa fa-twitter" type="submit"></a>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <div>
-                    <label class="form" style="padding-right: 720px" text-align="left" for="username">Your Password</label>
-                        <input class="required form-control" type="password" id="password" name="password" tabindex="2" size="25" aria-label="Enter Password" accesskey="p" autocomplete="off" placeholder="e.g. LetsGoMountaineers123" value=""><span id="capslock-on" style="display:none;">
-                            <p>
-                                <i class="fa fa-exclamation-circle"></i>
-                                <span>CAPSLOCK key is turned on!</span>
-                            </p>
-                        </span>
-                    </div>
-                </div>
-                <div class="form-group">
-                  <input class="btn btn-primary" name="submit" accesskey="l" value="LOGIN" tabindex="6" type="submit" enabled="enabled"></div>
-                <div>            
-                    <p><a href="https://login.wvu.edu/self-service/" target="_blank" rel="noopener noreferrer" class="already">Need help? Manage your Login account.</a></p>
-                </div>
-            </form>
-            <script type="text/javascript">
-                /*<![CDATA[*/
-                var i = "NAFTC gathering information..."
-                    /*]]>*/
-                    $(document).ready(function () {
-                        $("#fm1").submit(function () {
-                            $(":submit").attr("disabled", true);
-                            $(":submit").attr("value", i);
-                            return true;
-                        });
-                    });
-            </script>
             </div>
-            <div class="copyright">
-            <p>West Virginia University is an Equal Opportunity/Affirmative Action institution.</p>
-            <img alt="West Virginia University seal.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/West_Virginia_University_seal.svg/150px-West_Virginia_University_seal.svg.png" decoding="async" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/West_Virginia_University_seal.svg/225px-West_Virginia_University_seal.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/West_Virginia_University_seal.svg/300px-West_Virginia_University_seal.svg.png 2x" data-file-width="94" data-file-height="94">
-            <p>Copyright <span>2021</span> West Virginia University - <a href="http://it.wvu.edu/governance/standards-and-procedures/all-standards/information-privacy-policy" rel="noopener noreferrer" target="_blank">Privacy Policy</a></p>
-            <div>
-                </div>
-          </div>
         </div>
-        
     </div>
-  </body>
-</html>
+</main>
+

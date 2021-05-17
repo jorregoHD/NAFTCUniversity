@@ -29,7 +29,7 @@
           </a>
         </li>
         <li class="nav-item mx-3" id="register">
-          <a class="nav-link" style="color: white;" href="login" role="button">
+          <a class="nav-link" style="color: white;" href="register" role="button">
             Register
           </a>
         </li>

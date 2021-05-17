@@ -1,0 +1,54 @@
+.bg-cover {
+    background-image: url("../img/backg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+}
+
+.container {
+width: 50%;
+}
+
+.center-me {
+    background-position: left;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+.fa-google {
+    color: white;
+    background-color: #ea4335;
+  }
+  
+  .fa-facebook {
+    color: white;
+    background-color: #3b5998;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.signup-form {
+    background-position: left;
+    border-radius: 150px;
+    background-image: url("../Images/curtain.jpg");
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+}
